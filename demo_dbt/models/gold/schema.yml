@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: gold
+    description: 'Dados brutos sobre o compeonato brasileiro de futebol, série A'
+    database: Ada
+    schema: gold
+    tables:
+      - name: brasileirao_serie_a_gold
+        description: 'tabelas de classificação por rodada, desde 2003'
+

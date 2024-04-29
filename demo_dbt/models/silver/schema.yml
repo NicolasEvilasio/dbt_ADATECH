@@ -1,0 +1,19 @@
+version: 2
+
+sources:
+  - name: silver
+    description: 'Dados brutos sobre o compeonato brasileiro de futebol, série A'
+    database: Ada
+    schema: silver
+    tables:
+      - name: brasileirao_serie_a_silver
+        description: 'tabelas de classificação por rodada, desde 2003'
+
+  - name: bronze
+    description: 'Dados brutos sobre o compeonato brasileiro de futebol, série A'
+    database: Ada
+    schema: bronze
+    tables:
+      - name: brasileirao_serie_a_bronze
+        description: 'tabelas de classificação por rodada, desde 2003'
+
